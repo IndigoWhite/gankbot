@@ -15,10 +15,12 @@ bot.registry.registerGroups([
         ['chris', 'chris'],
         ['rugi'],['rugi'],
         ['changelog'],['changelog'],
+        ['spy'],['spy'],
         ['thegreatergood'],['thegreatergood'],
         ['germans'],['germans'],
         ['praisejoko'],['praisejoko'],
-        ['nobles'],['nobles']
+        ['nobles'],['nobles'],
+        ['crusade'],['crusade']
 
 
 ]);
