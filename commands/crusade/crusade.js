@@ -20,9 +20,9 @@ class crusadeCommand extends commando.Command{
         var days = Math.floor(distance / (1000 * 60 * 60 * 24));
         var negDays = Math.floor(days * -1);
 
-        let daysMsg = ("Aly's dagger crusade has lasted for " + negDays + " days");   
+        let daysMsg = ("Aly's dagger crusade has lasted for " + negDays + " days.");   
 
-        message.reply(daysMsg);
+        message.reply(daysMsg + " Here's her last playing GW2 - https://www.youtube.com/watch?v=5pjpQot6J7k");
     }
 }
 

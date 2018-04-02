@@ -12,9 +12,10 @@ class NoblesCommand extends commando.Command{
     }
     async run(message, args){
          let tmpNobles = Math.floor(Math.random() * 100);
+         
          let actualNobles = 'Of 100 nobles watching ' + tmpNobles + " were impressed. ";
-         message.reply(actualNobles); 
-
+        
+         message.reply(actualNobles);
          if (tmpNobles > 79){
           let BrahneNobles = ' Queen Brahne was impressed.';
           message.reply(BrahneNobles);
@@ -24,7 +25,6 @@ class NoblesCommand extends commando.Command{
           message.reply(BrahneNobles);
       }
       
-      //message.reply(BrahneNobles);
     }
 }
 
