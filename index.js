@@ -31,9 +31,9 @@ bot.registry.registerCommandsIn(__dirname + "/commands");
 bot.on("guildMemberAdd", member => {
     let guild = member.guild;
     guild.defaultChannel.send('Welcome new friend to the Ganker Squad discord server. We highly recommend checking out the pinned messages on each channel for information about them.')
-})
+});
 
-
+bot.login('???'); //discord bot id here.
 
 bot.on('ready', () => {
     console.log ('BOT IS ONLINE');
