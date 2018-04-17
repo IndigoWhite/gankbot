@@ -15,12 +15,12 @@ bot.registry.registerGroups([
         ['chris', 'chris'],
         ['rugi'],['rugi'],
         ['changelog'],['changelog'],
-        ['spy'],['spy'],
         ['thegreatergood'],['thegreatergood'],
         ['germans'],['germans'],
         ['praisejoko'],['praisejoko'],
         ['nobles'],['nobles'],
-        ['crusade'],['crusade']
+        ['crusade'],['crusade'],
+        ['who'],['who']
 
 
 ]);
@@ -33,4 +33,9 @@ bot.on("guildMemberAdd", member => {
     guild.defaultChannel.send('Welcome new friend to the Ganker Squad discord server. We highly recommend checking out the pinned messages on each channel for information about them.')
 })
 
-bot.login('???'); //discord bot id here.
+
+
+bot.on('ready', () => {
+    console.log ('BOT IS ONLINE');
+    bot.user.setPresence( { game: {name: '!help for commands', type: 0 }});
+  })
