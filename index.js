@@ -20,7 +20,8 @@ bot.registry.registerGroups([
         ['praisejoko'],['praisejoko'],
         ['nobles'],['nobles'],
         ['crusade'],['crusade'],
-        ['who'],['who']
+        ['who'],['who'],
+        ['oooooo'],['oooooo']
 
 
 ]);
