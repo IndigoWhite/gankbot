@@ -11,7 +11,7 @@ class changelogCommand extends commando.Command{
         });
     }
     async run(message, args){
-        message.reply(" ``` 17-03-2018 \n \n Removed a load of bloated code. \n Added !nobles command```");
+        message.reply(" ``` 06-07-2018 \n \n Added sub commands on the random responders, like !cunt and !john. \n Add a number after the command to get a specific response from the bot \n For example !cunt 3```");
     }
 }
 

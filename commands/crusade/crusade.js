@@ -6,7 +6,7 @@ class crusadeCommand extends commando.Command{
             name : 'crusade',
             group : 'crusade',
             memberName: 'crusade',
-            description: 'How long has it been?'
+            description: 'How long has it been?'            
 
         });
     }
@@ -22,7 +22,7 @@ class crusadeCommand extends commando.Command{
 
         let daysMsg = ("Aly's dagger crusade has lasted for " + negDays + " days.");   
 
-        message.reply(daysMsg + " Here's her last playing GW2 - https://www.youtube.com/watch?v=5pjpQot6J7k");
+        message.reply(daysMsg + " Here's her last playing GW2 - https://youtu.be/yDyjz5bLSEU?t=30s");
     }
 }
 

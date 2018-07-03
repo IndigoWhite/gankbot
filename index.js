@@ -1,4 +1,5 @@
 // to run bot -  node . --harmony
+// to run bot in autorestart mode : nodemon index.js
 const commando = require('discord.js-commando');
 const bot = new commando.Client();
 
@@ -21,7 +22,9 @@ bot.registry.registerGroups([
         ['nobles'],['nobles'],
         ['crusade'],['crusade'],
         ['who'],['who'],
-        ['oooooo'],['oooooo']
+        ['oooooo'],['oooooo'],
+        ['choya'],['choya'],
+        ['tybalt'],['tybalt']
 
 
 ]);
@@ -34,7 +37,8 @@ bot.on("guildMemberAdd", member => {
     guild.defaultChannel.send('Welcome new friend to the Ganker Squad discord server. We highly recommend checking out the pinned messages on each channel for information about them.')
 });
 
-bot.login('???'); //discord bot id here.
+
+bot.login('???');
 
 bot.on('ready', () => {
     console.log ('BOT IS ONLINE');
